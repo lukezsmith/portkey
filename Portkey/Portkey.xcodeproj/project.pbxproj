@@ -1,0 +1,1199 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070AB730289A6DE500A58D77 /* AWSS3Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070AB72F289A6DE500A58D77 /* AWSS3Wrapper.swift */; };
+		070AB732289A7ED800A58D77 /* AWSS3+ListBucketsInputInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070AB731289A7ED800A58D77 /* AWSS3+ListBucketsInputInit.swift */; };
+		070AB73B289C2F1E00A58D77 /* String+AlphanumericCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070AB73A289C2F1E00A58D77 /* String+AlphanumericCheck.swift */; };
+		071CEF92289281970077F835 /* SubdomainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071CEF91289281970077F835 /* SubdomainView.swift */; };
+		071CEF94289282370077F835 /* UploadedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071CEF93289282370077F835 /* UploadedView.swift */; };
+		077AF8F62886FCD700474BB6 /* PortkeyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077AF8F52886FCD700474BB6 /* PortkeyApp.swift */; };
+		077AF8F82886FCD700474BB6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077AF8F72886FCD700474BB6 /* MainView.swift */; };
+		077AF8FA2886FCD800474BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077AF8F92886FCD800474BB6 /* Assets.xcassets */; };
+		077AF8FD2886FCD800474BB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077AF8FC2886FCD800474BB6 /* Preview Assets.xcassets */; };
+		077AF9082886FCD800474BB6 /* PortkeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077AF9072886FCD800474BB6 /* PortkeyTests.swift */; };
+		077AF9122886FCD800474BB6 /* PortkeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077AF9112886FCD800474BB6 /* PortkeyUITests.swift */; };
+		077AF9142886FCD800474BB6 /* PortkeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077AF9132886FCD800474BB6 /* PortkeyUITestsLaunchTests.swift */; };
+		0784DA9D2891D5D700BC9E77 /* FilePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784DA9C2891D5D700BC9E77 /* FilePickerView.swift */; };
+		0784DA9F2891D64A00BC9E77 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784DA9E2891D64A00BC9E77 /* HeaderView.swift */; };
+		0784DAA12891DA4A00BC9E77 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784DAA02891DA4A00BC9E77 /* CustomTabView.swift */; };
+		0789DBE928ACF17300083C09 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0789DBE828ACF17300083C09 /* Info.plist */; };
+		07ABC1AF28919AB4008C4937 /* URL+FileAttrs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ABC1AE28919AB4008C4937 /* URL+FileAttrs.swift */; };
+		07E8C80128AEF40D005DE7B9 /* AWSClientRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 07E8C80028AEF40D005DE7B9 /* AWSClientRuntime */; };
+		07E8C80328AEF40D005DE7B9 /* AWSS3 in Frameworks */ = {isa = PBXBuildFile; productRef = 07E8C80228AEF40D005DE7B9 /* AWSS3 */; };
+		07E8C80628AEF493005DE7B9 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = 07E8C80528AEF493005DE7B9 /* LoremSwiftum */; };
+		07E8C82228AFBDC0005DE7B9 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8C81D28AFAC74005DE7B9 /* Env.swift */; };
+		07E8C82328AFBDC2005DE7B9 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8C81D28AFAC74005DE7B9 /* Env.swift */; };
+		07E8C82428AFBDC2005DE7B9 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E8C81D28AFAC74005DE7B9 /* Env.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077AF9042886FCD800474BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077AF8EA2886FCD700474BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077AF8F12886FCD700474BB6;
+			remoteInfo = Portkey;
+		};
+		077AF90E2886FCD800474BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077AF8EA2886FCD700474BB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077AF8F12886FCD700474BB6;
+			remoteInfo = Portkey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070AB72F289A6DE500A58D77 /* AWSS3Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSS3Wrapper.swift; sourceTree = "<group>"; };
+		070AB731289A7ED800A58D77 /* AWSS3+ListBucketsInputInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AWSS3+ListBucketsInputInit.swift"; sourceTree = "<group>"; };
+		070AB73A289C2F1E00A58D77 /* String+AlphanumericCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+AlphanumericCheck.swift"; sourceTree = "<group>"; };
+		071CEF91289281970077F835 /* SubdomainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubdomainView.swift; sourceTree = "<group>"; };
+		071CEF93289282370077F835 /* UploadedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadedView.swift; sourceTree = "<group>"; };
+		077AF8F22886FCD700474BB6 /* Portkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077AF8F52886FCD700474BB6 /* PortkeyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortkeyApp.swift; sourceTree = "<group>"; };
+		077AF8F72886FCD700474BB6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		077AF8F92886FCD800474BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		077AF8FC2886FCD800474BB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		077AF8FE2886FCD800474BB6 /* Portkey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Portkey.entitlements; sourceTree = "<group>"; };
+		077AF9032886FCD800474BB6 /* PortkeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortkeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077AF9072886FCD800474BB6 /* PortkeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortkeyTests.swift; sourceTree = "<group>"; };
+		077AF90D2886FCD800474BB6 /* PortkeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortkeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077AF9112886FCD800474BB6 /* PortkeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortkeyUITests.swift; sourceTree = "<group>"; };
+		077AF9132886FCD800474BB6 /* PortkeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortkeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0784DA9C2891D5D700BC9E77 /* FilePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePickerView.swift; sourceTree = "<group>"; };
+		0784DA9E2891D64A00BC9E77 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0784DAA02891DA4A00BC9E77 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		0789DBE828ACF17300083C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07ABC1AE28919AB4008C4937 /* URL+FileAttrs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+FileAttrs.swift"; sourceTree = "<group>"; };
+		07E8C81828AFA79D005DE7B9 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		07E8C81928AFA838005DE7B9 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		07E8C81A28AFA84A005DE7B9 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		07E8C81D28AFAC74005DE7B9 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077AF8EF2886FCD700474BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E8C80328AEF40D005DE7B9 /* AWSS3 in Frameworks */,
+				07E8C80128AEF40D005DE7B9 /* AWSClientRuntime in Frameworks */,
+				07E8C80628AEF493005DE7B9 /* LoremSwiftum in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077AF9002886FCD800474BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077AF90A2886FCD800474BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070AB72E289A6BC400A58D77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		077AF8E92886FCD700474BB6 = {
+			isa = PBXGroup;
+			children = (
+				077AF8F42886FCD700474BB6 /* Portkey */,
+				077AF9062886FCD800474BB6 /* PortkeyTests */,
+				077AF9102886FCD800474BB6 /* PortkeyUITests */,
+				077AF8F32886FCD700474BB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		077AF8F32886FCD700474BB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077AF8F22886FCD700474BB6 /* Portkey.app */,
+				077AF9032886FCD800474BB6 /* PortkeyTests.xctest */,
+				077AF90D2886FCD800474BB6 /* PortkeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077AF8F42886FCD700474BB6 /* Portkey */ = {
+			isa = PBXGroup;
+			children = (
+				0789DBE828ACF17300083C09 /* Info.plist */,
+				07E8C81728AFA77F005DE7B9 /* Configs */,
+				070AB72E289A6BC400A58D77 /* Views */,
+				07ABC1AD28919A91008C4937 /* Extensions */,
+				077AF8F52886FCD700474BB6 /* PortkeyApp.swift */,
+				077AF8F72886FCD700474BB6 /* MainView.swift */,
+				0784DA9C2891D5D700BC9E77 /* FilePickerView.swift */,
+				0784DA9E2891D64A00BC9E77 /* HeaderView.swift */,
+				0784DAA02891DA4A00BC9E77 /* CustomTabView.swift */,
+				071CEF91289281970077F835 /* SubdomainView.swift */,
+				071CEF93289282370077F835 /* UploadedView.swift */,
+				077AF8F92886FCD800474BB6 /* Assets.xcassets */,
+				077AF8FE2886FCD800474BB6 /* Portkey.entitlements */,
+				077AF8FB2886FCD800474BB6 /* Preview Content */,
+				070AB72F289A6DE500A58D77 /* AWSS3Wrapper.swift */,
+			);
+			path = Portkey;
+			sourceTree = "<group>";
+		};
+		077AF8FB2886FCD800474BB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				077AF8FC2886FCD800474BB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		077AF9062886FCD800474BB6 /* PortkeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				077AF9072886FCD800474BB6 /* PortkeyTests.swift */,
+			);
+			path = PortkeyTests;
+			sourceTree = "<group>";
+		};
+		077AF9102886FCD800474BB6 /* PortkeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				077AF9112886FCD800474BB6 /* PortkeyUITests.swift */,
+				077AF9132886FCD800474BB6 /* PortkeyUITestsLaunchTests.swift */,
+			);
+			path = PortkeyUITests;
+			sourceTree = "<group>";
+		};
+		07ABC1AD28919A91008C4937 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				07ABC1AE28919AB4008C4937 /* URL+FileAttrs.swift */,
+				070AB731289A7ED800A58D77 /* AWSS3+ListBucketsInputInit.swift */,
+				070AB73A289C2F1E00A58D77 /* String+AlphanumericCheck.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		07E8C81728AFA77F005DE7B9 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				07E8C81828AFA79D005DE7B9 /* Development.xcconfig */,
+				07E8C81928AFA838005DE7B9 /* Staging.xcconfig */,
+				07E8C81A28AFA84A005DE7B9 /* Production.xcconfig */,
+				07E8C81D28AFAC74005DE7B9 /* Env.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077AF8F12886FCD700474BB6 /* Portkey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077AF9172886FCD800474BB6 /* Build configuration list for PBXNativeTarget "Portkey" */;
+			buildPhases = (
+				077AF8EE2886FCD700474BB6 /* Sources */,
+				077AF8EF2886FCD700474BB6 /* Frameworks */,
+				077AF8F02886FCD700474BB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Portkey;
+			packageProductDependencies = (
+				07E8C80028AEF40D005DE7B9 /* AWSClientRuntime */,
+				07E8C80228AEF40D005DE7B9 /* AWSS3 */,
+				07E8C80528AEF493005DE7B9 /* LoremSwiftum */,
+			);
+			productName = Portkey;
+			productReference = 077AF8F22886FCD700474BB6 /* Portkey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		077AF9022886FCD800474BB6 /* PortkeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077AF91A2886FCD800474BB6 /* Build configuration list for PBXNativeTarget "PortkeyTests" */;
+			buildPhases = (
+				077AF8FF2886FCD800474BB6 /* Sources */,
+				077AF9002886FCD800474BB6 /* Frameworks */,
+				077AF9012886FCD800474BB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077AF9052886FCD800474BB6 /* PBXTargetDependency */,
+			);
+			name = PortkeyTests;
+			productName = PortkeyTests;
+			productReference = 077AF9032886FCD800474BB6 /* PortkeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		077AF90C2886FCD800474BB6 /* PortkeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077AF91D2886FCD800474BB6 /* Build configuration list for PBXNativeTarget "PortkeyUITests" */;
+			buildPhases = (
+				077AF9092886FCD800474BB6 /* Sources */,
+				077AF90A2886FCD800474BB6 /* Frameworks */,
+				077AF90B2886FCD800474BB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077AF90F2886FCD800474BB6 /* PBXTargetDependency */,
+			);
+			name = PortkeyUITests;
+			productName = PortkeyUITests;
+			productReference = 077AF90D2886FCD800474BB6 /* PortkeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077AF8EA2886FCD700474BB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					077AF8F12886FCD700474BB6 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					077AF9022886FCD800474BB6 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 077AF8F12886FCD700474BB6;
+					};
+					077AF90C2886FCD800474BB6 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 077AF8F12886FCD700474BB6;
+					};
+				};
+			};
+			buildConfigurationList = 077AF8ED2886FCD700474BB6 /* Build configuration list for PBXProject "Portkey" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077AF8E92886FCD700474BB6;
+			packageReferences = (
+				07E8C7FF28AEF40D005DE7B9 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */,
+				07E8C80428AEF493005DE7B9 /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
+			);
+			productRefGroup = 077AF8F32886FCD700474BB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077AF8F12886FCD700474BB6 /* Portkey */,
+				077AF9022886FCD800474BB6 /* PortkeyTests */,
+				077AF90C2886FCD800474BB6 /* PortkeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077AF8F02886FCD700474BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077AF8FD2886FCD800474BB6 /* Preview Assets.xcassets in Resources */,
+				077AF8FA2886FCD800474BB6 /* Assets.xcassets in Resources */,
+				0789DBE928ACF17300083C09 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077AF9012886FCD800474BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077AF90B2886FCD800474BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077AF8EE2886FCD700474BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077AF8F82886FCD700474BB6 /* MainView.swift in Sources */,
+				07E8C82328AFBDC2005DE7B9 /* Env.swift in Sources */,
+				0784DA9F2891D64A00BC9E77 /* HeaderView.swift in Sources */,
+				0784DA9D2891D5D700BC9E77 /* FilePickerView.swift in Sources */,
+				071CEF92289281970077F835 /* SubdomainView.swift in Sources */,
+				070AB730289A6DE500A58D77 /* AWSS3Wrapper.swift in Sources */,
+				070AB73B289C2F1E00A58D77 /* String+AlphanumericCheck.swift in Sources */,
+				07ABC1AF28919AB4008C4937 /* URL+FileAttrs.swift in Sources */,
+				0784DAA12891DA4A00BC9E77 /* CustomTabView.swift in Sources */,
+				071CEF94289282370077F835 /* UploadedView.swift in Sources */,
+				077AF8F62886FCD700474BB6 /* PortkeyApp.swift in Sources */,
+				070AB732289A7ED800A58D77 /* AWSS3+ListBucketsInputInit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077AF8FF2886FCD800474BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077AF9082886FCD800474BB6 /* PortkeyTests.swift in Sources */,
+				07E8C82428AFBDC2005DE7B9 /* Env.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077AF9092886FCD800474BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E8C82228AFBDC0005DE7B9 /* Env.swift in Sources */,
+				077AF9122886FCD800474BB6 /* PortkeyUITests.swift in Sources */,
+				077AF9142886FCD800474BB6 /* PortkeyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		077AF9052886FCD800474BB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077AF8F12886FCD700474BB6 /* Portkey */;
+			targetProxy = 077AF9042886FCD800474BB6 /* PBXContainerItemProxy */;
+		};
+		077AF90F2886FCD800474BB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077AF8F12886FCD700474BB6 /* Portkey */;
+			targetProxy = 077AF90E2886FCD800474BB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		077AF9152886FCD800474BB6 /* Debug Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E8C81828AFA79D005DE7B9 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug Development";
+		};
+		077AF9162886FCD800474BB6 /* Release Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E8C81828AFA79D005DE7B9 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = "Release Development";
+		};
+		077AF9182886FCD800474BB6 /* Debug Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E8C81828AFA79D005DE7B9 /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Portkey/Portkey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Portkey/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Portkey/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.Portkey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Debug Development";
+		};
+		077AF9192886FCD800474BB6 /* Release Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E8C81828AFA79D005DE7B9 /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Portkey/Portkey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Portkey/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Portkey/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.Portkey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Release Development";
+		};
+		077AF91B2886FCD800474BB6 /* Debug Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.PortkeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portkey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portkey";
+			};
+			name = "Debug Development";
+		};
+		077AF91C2886FCD800474BB6 /* Release Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.PortkeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portkey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portkey";
+			};
+			name = "Release Development";
+		};
+		077AF91E2886FCD800474BB6 /* Debug Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.PortkeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Portkey;
+			};
+			name = "Debug Development";
+		};
+		077AF91F2886FCD800474BB6 /* Release Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.PortkeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Portkey;
+			};
+			name = "Release Development";
+		};
+		07E8C80728AFA68A005DE7B9 /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E8C81928AFA838005DE7B9 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug Staging";
+		};
+		07E8C80828AFA68A005DE7B9 /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E8C81928AFA838005DE7B9 /* Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Portkey/Portkey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Portkey/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Portkey/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.Portkey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Debug Staging";
+		};
+		07E8C80928AFA68A005DE7B9 /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.PortkeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portkey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portkey";
+			};
+			name = "Debug Staging";
+		};
+		07E8C80A28AFA68A005DE7B9 /* Debug Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.PortkeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Portkey;
+			};
+			name = "Debug Staging";
+		};
+		07E8C80B28AFA69A005DE7B9 /* Debug Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E8C81A28AFA84A005DE7B9 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug Production";
+		};
+		07E8C80C28AFA69A005DE7B9 /* Debug Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E8C81A28AFA84A005DE7B9 /* Production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Portkey/Portkey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Portkey/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Portkey/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.Portkey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Debug Production";
+		};
+		07E8C80D28AFA69A005DE7B9 /* Debug Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.PortkeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portkey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portkey";
+			};
+			name = "Debug Production";
+		};
+		07E8C80E28AFA69A005DE7B9 /* Debug Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.PortkeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Portkey;
+			};
+			name = "Debug Production";
+		};
+		07E8C80F28AFA6A4005DE7B9 /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E8C81928AFA838005DE7B9 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = "Release Staging";
+		};
+		07E8C81028AFA6A4005DE7B9 /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E8C81928AFA838005DE7B9 /* Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Portkey/Portkey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Portkey/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Portkey/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.Portkey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Release Staging";
+		};
+		07E8C81128AFA6A4005DE7B9 /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.PortkeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portkey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portkey";
+			};
+			name = "Release Staging";
+		};
+		07E8C81228AFA6A4005DE7B9 /* Release Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.PortkeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Portkey;
+			};
+			name = "Release Staging";
+		};
+		07E8C81328AFA6AE005DE7B9 /* Release Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E8C81A28AFA84A005DE7B9 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = "Release Production";
+		};
+		07E8C81428AFA6AE005DE7B9 /* Release Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E8C81A28AFA84A005DE7B9 /* Production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Portkey/Portkey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Portkey/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Portkey/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.Portkey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Release Production";
+		};
+		07E8C81528AFA6AE005DE7B9 /* Release Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.PortkeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Portkey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Portkey";
+			};
+			name = "Release Production";
+		};
+		07E8C81628AFA6AE005DE7B9 /* Release Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukezsmith.PortkeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Portkey;
+			};
+			name = "Release Production";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077AF8ED2886FCD700474BB6 /* Build configuration list for PBXProject "Portkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077AF9152886FCD800474BB6 /* Debug Development */,
+				07E8C80B28AFA69A005DE7B9 /* Debug Production */,
+				07E8C80728AFA68A005DE7B9 /* Debug Staging */,
+				077AF9162886FCD800474BB6 /* Release Development */,
+				07E8C80F28AFA6A4005DE7B9 /* Release Staging */,
+				07E8C81328AFA6AE005DE7B9 /* Release Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Development";
+		};
+		077AF9172886FCD800474BB6 /* Build configuration list for PBXNativeTarget "Portkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077AF9182886FCD800474BB6 /* Debug Development */,
+				07E8C80C28AFA69A005DE7B9 /* Debug Production */,
+				07E8C80828AFA68A005DE7B9 /* Debug Staging */,
+				077AF9192886FCD800474BB6 /* Release Development */,
+				07E8C81028AFA6A4005DE7B9 /* Release Staging */,
+				07E8C81428AFA6AE005DE7B9 /* Release Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Development";
+		};
+		077AF91A2886FCD800474BB6 /* Build configuration list for PBXNativeTarget "PortkeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077AF91B2886FCD800474BB6 /* Debug Development */,
+				07E8C80D28AFA69A005DE7B9 /* Debug Production */,
+				07E8C80928AFA68A005DE7B9 /* Debug Staging */,
+				077AF91C2886FCD800474BB6 /* Release Development */,
+				07E8C81128AFA6A4005DE7B9 /* Release Staging */,
+				07E8C81528AFA6AE005DE7B9 /* Release Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Development";
+		};
+		077AF91D2886FCD800474BB6 /* Build configuration list for PBXNativeTarget "PortkeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077AF91E2886FCD800474BB6 /* Debug Development */,
+				07E8C80E28AFA69A005DE7B9 /* Debug Production */,
+				07E8C80A28AFA68A005DE7B9 /* Debug Staging */,
+				077AF91F2886FCD800474BB6 /* Release Development */,
+				07E8C81228AFA6A4005DE7B9 /* Release Staging */,
+				07E8C81628AFA6AE005DE7B9 /* Release Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release Development";
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07E8C7FF28AEF40D005DE7B9 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/awslabs/aws-sdk-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.6;
+			};
+		};
+		07E8C80428AEF493005DE7B9 /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07E8C80028AEF40D005DE7B9 /* AWSClientRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07E8C7FF28AEF40D005DE7B9 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			productName = AWSClientRuntime;
+		};
+		07E8C80228AEF40D005DE7B9 /* AWSS3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07E8C7FF28AEF40D005DE7B9 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			productName = AWSS3;
+		};
+		07E8C80528AEF493005DE7B9 /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07E8C80428AEF493005DE7B9 /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 077AF8EA2886FCD700474BB6 /* Project object */;
+}
